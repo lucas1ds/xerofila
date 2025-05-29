@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informações sobre Região e Clima</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f5f5f5;
+        }
+        
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        
+        nav {
+            background-color: #34495e;
+            padding: 10px;
+        }
+        
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        
+        nav li {
+            margin: 0 15px;
+        }
+        
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        nav a:hover {
+            text-decoration: underline;
+        }
+        
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        h1, h2 {
+            color: #2c3e50;
+        }
+        
+        .clima-section {
+            margin-bottom: 30px;
+            padding: 15px;
+            border-left: 4px solid #3498db;
+            background-color: #f8f9fa;
+        }
+        
+        .regiao-card {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 15px;
+            margin-bottom: 15px;
+            background-color: #f9f9f9;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #2c3e50;
+            color: white;
+            margin-top: 20px;
+        }
+        
+        @media (max-width: 600px) {
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            nav li {
+                margin: 5px 0;
+            }
+            
+            .container {
+                width: 95%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Geografia e Clima</h1>
+        <p>Entenda as regiões e seus climas ao redor do mundo</p>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#regioes">Regiões</a></li>
+            <li><a href="#clima">Tipos de Clima</a></li>
+            <li><a href="#fatores">Fatores Climáticos</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+    
+    <div class="container">
+        <section id="regioes">
+            <h2>Principais Regiões do Mundo</h2>
+            
+            <div class="regiao-card">
+                <h3>América do Sul</h3>
+                <p>Região caracterizada pela Floresta Amazônica, Cordilheira dos Andes e diversos climas tropicais.</p>
+                <p><strong>Países destacados:</strong> Brasil, Argentina, Chile, Colômbia</p>
+            </div>
+            
+            <div class="regiao-card">
+                <h3>Europa</h3>
+                <p>Região com clima temperado predominante, relevo variado e estações do ano bem definidas.</p>
+                <p><strong>Países destacados:</strong> França, Alemanha, Itália, Espanha</p>
+            </div>
+            
+            <div class="regiao-card">
+                <h3>Ásia</h3>
+                <p>Maior continente do mundo, com grande diversidade climática, desde o Ártico até os trópicos.</p>
+                <p><strong>Países destacados:</strong> China, Índia, Japão, Rússia</p>
+            </div>
+        </section>
+        
+        <section id="clima">
+            <h2>Tipos de Clima</h2>
+            
+            <div class="clima-section">
+                <h3>Equatorial</h3>
+                <p>Caracterizado por temperaturas elevadas durante todo o ano e alta umidade. Presente na região da Amazônia e África Central.</p>
+            </div>
+            
+            <div class="clima-section">
+                <h3>Temperado</h3>
+                <p>Possui as quatro estações bem definidas, com invernos frios e verões quentes. Comum na Europa e parte da América do Norte.</p>
+            </div>
+            
+            <div class="clima-section">
+                <h3>Desértico</h3>
+                <p>Baixa umidade e grande amplitude térmica entre dia e noite. Encontrado no Saara (África), Atacama (Chile) e Oriente Médio.</p>
+            </div>
+            
+            <div class="clima-section">
+                <h3>Polar</h3>
+                <p>Temperaturas extremamente baixas durante todo o ano. Presente nas regiões próximas aos polos Norte e Sul.</p>
+            </div>
+        </section>
+        
+        <section id="fatores">
+            <h2>Fatores que Influenciam o Clima</h2>
+            <ul>
+                <li><strong>Latitude:</strong> Determina a quantidade de radiação solar recebida</li>
+                <li><strong>Altitude:</strong> Quanto maior a altitude, menor a temperatura</li>
+                <li><strong>Correntes Marítimas:</strong> Influenciam na temperatura e umidade</li>
+                <li><strong>Relevo:</strong> Pode barrar massas de ar e influenciar nas chuvas</li>
+                <li><strong>Continentalidade:</strong> Regiões distantes do mar têm maior amplitude térmica</li>
+            </ul>
+        </section>
+    </div>
+    
+    <footer id="contato">
+        <p>© 2023 Geografia e Clima - Todos os direitos reservados</p>
+        <p>Contato: contato@geografiaeclima.com</p>
+    </footer>
+</body>
+</html>
